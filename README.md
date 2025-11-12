@@ -7,7 +7,7 @@
 ## Dataset
 
 ### Example
-![](assets/example.png)
+![image](assets/example.png)
 
 ### Download
 The dataset proposed in this paper can be downloaded here.
