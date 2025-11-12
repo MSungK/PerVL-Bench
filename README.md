@@ -10,7 +10,7 @@
 ![image](assets/Example.png)
 
 ### Download
-The dataset proposed in this paper can be downloaded here.
+The dataset proposed in this paper can be downloaded [here](https://drive.google.com/file/d/1KeWRPTurpNTo-h5j1fONnsdL2H9YmCgb/view?usp=drive_link).
 
 ---
 ## Code
@@ -90,7 +90,7 @@ python src/evaluation.py --type multimodal_prompt_qa --input {output_file}
 
 ---
 ## Acknowledgement
-This dataset is constructed based on the [Yo’LLaVA](https://arxiv.org/abs/2406.09400) and [MC-LLaVA](https://arxiv.org/abs/2411.11706) datasets. We express our gratitude for your excellent research.
+This dataset is constructed based on the [Yo’LLaVA](https://arxiv.org/abs/2406.09400) and [MC-LLaVA](https://arxiv.org/abs/2411.11706) datasets. Thank you for your outstanding work!
 
 ---
 ## License
