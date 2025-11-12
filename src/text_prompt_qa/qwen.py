@@ -45,9 +45,7 @@ if __name__ == '__main__':
         QAs = data['QA']
         gt = data['gt']
         img_path = osp.join('data', data['image_path'])
-        # print(img_path)
-        # print(os.getcwd())
-        # exit()
+        
         content = list()
         
         content.append({
