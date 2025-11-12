@@ -51,7 +51,6 @@ if __name__ == '__main__':
         QAs = data['QA']
         gt = data['gt']
         img_path = osp.join('data', data['image_path'])
-        concepts = data['concepts']
         
         content = list()
         
