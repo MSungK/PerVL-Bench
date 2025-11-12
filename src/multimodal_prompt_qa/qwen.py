@@ -108,7 +108,6 @@ if __name__ == '__main__':
         generated_ids = model.generate(
             **inputs, 
             max_new_tokens=256,
-            do_sample=False,
         )
         generated_ids_trimmed = [
             out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
