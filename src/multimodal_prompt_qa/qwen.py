@@ -13,7 +13,7 @@ from prompt import multimodal_system_prompt, multimodal_user_prompt
 
 
 def encode_image(image_path):
-    return f'file:///{image_path}'
+    return f'file://{image_path}'
 
 
 if __name__ == '__main__':
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     )
     processor = AutoProcessor.from_pretrained(args.model, cache_dir='./')
     
-    target_path = f'output/multimodal_prompt_qa_{args.prompt_type}/{args.model.split('/')[-1]}/{args.shard_index}.jsonl'
+    target_path = f"output/multimodal_prompt_qa_{args.prompt_type}/{args.model.split('/')[-1]}.jsonl"
     os.makedirs(osp.dirname(target_path), exist_ok=True)
     f = open(target_path, 'w')
     

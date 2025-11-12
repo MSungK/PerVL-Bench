@@ -13,7 +13,7 @@ from prompt import text_system_prompt, text_user_prompt
 
 
 def encode_image(image_path):
-    return f'file:///{image_path}'
+    return f'file://{image_path}'
 
 
 if __name__ == '__main__':
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     )
     processor = AutoProcessor.from_pretrained(args.model, cache_dir='./')
     
-    target_path = f'output/text_prompt_qa/{args.model.split('/')[-1]}/{args.shard_index}.jsonl'
+    target_path = f"output/text_prompt_qa/{args.model.split('/')[-1]}.jsonl"
     os.makedirs(osp.dirname(target_path), exist_ok=True)
     f = open(target_path, 'w')
     
@@ -45,7 +45,9 @@ if __name__ == '__main__':
         QAs = data['QA']
         gt = data['gt']
         img_path = osp.join('data', data['image_path'])
-        
+        # print(img_path)
+        # print(os.getcwd())
+        # exit()
         content = list()
         
         content.append({
