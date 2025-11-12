@@ -10,7 +10,7 @@
 ![image](assets/Example.png)
 
 ### Download
-The dataset proposed in this paper can be downloaded [here](https://drive.google.com/file/d/1KeWRPTurpNTo-h5j1fONnsdL2H9YmCgb/view?usp=drive_link).
+The dataset proposed in this paper can be downloaded [here](https://drive.google.com/file/d/1iITRrs_CICwCiB9p3fEun0xLTMqU0-Ri/view?usp=drive_link).
 
 ### File Structure
 ```plain text
@@ -21,6 +21,7 @@ The dataset proposed in this paper can be downloaded [here](https://drive.google
 │   ├── database
 │   ├── query_images
 │   └── vp_images
+├── main_results
 ├── scripts
 └── src
 ```
@@ -78,6 +79,7 @@ sh scripts/multimodal_prompt_qa_HF.sh
 ```
 
 ### Evaluation
+The results used in this paper can be found in the main_results directory.
 
 #### Text-prompt QA
 ```shell
