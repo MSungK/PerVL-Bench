@@ -38,12 +38,12 @@ export deepinfra_api_key="your_genai_api_key_here"
 
 #### Inference via API call with GPT, Gemini, and Gemma series models
 This code supports multi-processing to enable faster inference when using API calls. The number of processes can be adjusted via {total_shard_num} in the script.
-1.	Performing **Text-prompt QA** inference:
+- Performing **Text-prompt QA** inference:
 ```shell
 sh scripts/text_prompt_qa_API.sh
 ```
 
-2.	Performing **Multimodal-prompt QA** inference:
+- Performing **Multimodal-prompt QA** inference:
 ```shell
 sh scripts/multimodal_prompt_qa_API.sh
 ```
@@ -54,12 +54,12 @@ python src/output_merge.py --name {output_directory}
 ```
 
 #### Inference with Qwen series models.
-3.	Performing **Text-prompt QA** inference:
+- Performing **Text-prompt QA** inference:
 ```shell
 sh scripts/text_prompt_qa_HF.sh
 ```
 
-4.	Performing **Multimodal-prompt QA** inference:
+- Performing **Multimodal-prompt QA** inference:
 ```shell
 sh scripts/multimodal_prompt_qa_HF.sh
 ```
@@ -94,3 +94,4 @@ This dataset is constructed based on the [Yo’LLaVA](https://arxiv.org/abs/2406
 
 ---
 ## License
+This dataset is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute this dataset under the terms of the MIT License.
