@@ -6,3 +6,4 @@ output/*
 eval_result/*
 .locks/*
 models*
+camera-ready/*
