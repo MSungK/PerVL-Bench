@@ -12,6 +12,19 @@
 ### Download
 The dataset proposed in this paper can be downloaded [here](https://drive.google.com/file/d/1KeWRPTurpNTo-h5j1fONnsdL2H9YmCgb/view?usp=drive_link).
 
+### File Structure
+```plain text
+.
+├── assets
+├── data
+│   ├── benchmark
+│   ├── database
+│   ├── query_images
+│   └── vp_images
+├── scripts
+└── src
+```
+
 ---
 ## Code
 
@@ -53,7 +66,7 @@ When using multi-processing, the following procedure is required to aggregate th
 python src/output_merge.py --name {output_directory}
 ```
 
-#### Inference with Qwen series models.
+#### Inference via HF with Qwen series models.
 - Performing **Text-prompt QA** inference:
 ```shell
 sh scripts/text_prompt_qa_HF.sh
