@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```shell
 export openai_api_key="your_openai_api_key_here"
 export genai_api_key="your_genai_api_key_here"
-export deepinfra_api_key="your_genai_api_key_here"
+export deepinfra_api_key="your_deepinfra_api_key_here"
 ```
 
 ### Inference
