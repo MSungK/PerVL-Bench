@@ -102,7 +102,14 @@ python src/evaluation.py --type multimodal_prompt_qa --input {output_file}
 
 ---
 ## BibTex
-
+```shell
+@inproceedings{choi2026PatchwiseRetrieval,
+  title={PerVL-Bench: Benchmarking Multimodal Personalization for Large Vision–Language Models},
+  author={Minsung Kim},
+  booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+  year={2026}
+}
+```
 ---
 ## Acknowledgement
 This dataset is constructed based on the [Yo’LLaVA](https://arxiv.org/abs/2406.09400) and [MC-LLaVA](https://arxiv.org/abs/2411.11706) datasets. Thank you for your outstanding work!
