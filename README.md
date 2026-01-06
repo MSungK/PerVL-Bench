@@ -103,7 +103,7 @@ python src/evaluation.py --type multimodal_prompt_qa --input {output_file}
 ---
 ## BibTex
 ```shell
-@inproceedings{choi2026PatchwiseRetrieval,
+@inproceedings{mskim2026pervl,
   title={PerVL-Bench: Benchmarking Multimodal Personalization for Large Vision–Language Models},
   author={Minsung Kim},
   booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
