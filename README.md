@@ -103,11 +103,13 @@ python src/evaluation.py --type multimodal_prompt_qa --input {output_file}
 ---
 ## BibTex
 ```shell
-@inproceedings{mskim2026pervl,
-  title={PerVL-Bench: Benchmarking Multimodal Personalization for Large Vision–Language Models},
-  author={Minsung Kim},
-  booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
-  year={2026}
+@InProceedings{Kim_2026_WACV,
+    author    = {Kim, Minsung},
+    title     = {PerVL-Bench: Benchmarking Multimodal Personalization for Large Vision-Language Models},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {March},
+    year      = {2026},
+    pages     = {6696-6704}
 }
 ```
 ---
